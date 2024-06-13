@@ -1,0 +1,357 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&display=swap');
+
+
+/* :root{
+    background: #19b619;
+} */
+*{
+    font-family: cursive;
+    margin:0; padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    outline: none; border: none;
+    text-decoration: none;
+    transition: all .3s linear;
+}
+
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+    /* font-size: 65%; */
+}
+
+section{
+    padding: 0.5rem 5%;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    padding: .6rem 3rem;
+    background: #237e23;
+    color: white;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: pink;
+}
+
+a{
+    text-decoration: none;
+    color: #db9898;
+    margin-right: 1rem;
+    padding: 1rem;
+    display: inline-block;
+}
+.header-1,
+.header-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 9%;
+    background: #237e23;
+}
+
+.header-2 span{
+    font-weight: lighter;
+    color: #efad32;
+}
+
+.header-2 span:hover{
+    color:#7baaf9;
+}
+
+.header-2 a:hover{
+    color:#7baaf9;
+}
+
+
+.header-1 span{
+    font-weight: lighter;
+    color: #efad32;
+    font-size: 3rem;
+}
+
+.header-1 span:hover{
+    color:#7baaf9;
+}
+
+.header-1 a:hover{
+    color:#7baaf9;
+}
+
+.header-1 .logo{
+    font-weight: bolder;
+    font-size: 3rem;
+    color:white;
+}
+form{
+    background-color: #237e23;
+}
+
+.header-1{
+    border-bottom: .1rem solid #db9898;
+}
+
+.header-1 .search-bar-container{
+    display: flex;
+    align-items: center;
+    width: 35rem;
+    padding: .50rem;
+    background: #99f399;
+    border-radius: .5rem;
+}
+
+.header-1 .search-bar-container #search-bar{
+    width: 100%;
+    background: none;
+    text-transform: none;
+    color: #fff;
+    font-size: 1.7rem;
+}
+
+.header-1 .search-bar-container #search-bar::placeholder{
+    text-transform: capitalize;
+    color: #db9898;
+}
+
+.header-1 .search-bar-container label{
+    color: #fff;
+    cursor: pointer;
+    font-size: 2rem;
+    padding: 0 .5rem
+}
+
+.header-1 .search-bar-container label:hover{
+    color: #7baaf9;
+}
+
+.header-2 .navbar{
+    font-size: 1.2rem;
+    
+}
+
+#menu-bar{
+    font-size: 1.5rem;
+    color: #ffffff;
+   border: .1rem solid #efad32;
+   border-radius: .5rem;
+   padding: .5rem 1.5rem;
+   cursor: pointer;
+   display: none;
+}
+
+
+h2, h3 {
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+strong {
+    color: #efad32;
+}
+
+.navbar p{
+    color: rgb(0, 0, 0);
+}
+
+/* .home{
+    padding-top: 0;
+} */
+
+.home .home-slider{
+    box-shadow: 0.5rem 1rem rgba(0, 0, 0, .1);
+    border: .1rem solid rgba(0, 0, 0, .3);
+}
+
+.home .home-slider .box{
+    background-size: cover !important;
+    background-position: center !important;
+    min-height: 10rem;
+    position: relative;
+}
+
+.home .home-slider .box .content{
+    position: relative;
+    top: 30%; right: -100%;
+    transform: translateY(-10%);
+    max-width: 30rem;
+}
+
+.home .home-slider .box .content h3{
+    font-size: 2rem;
+    color: #000000;
+    padding: .5rem 0;
+}
+
+img{
+    width: 250px;
+    height: 300px;
+    position: relative;
+}
+
+.quantity{
+    border: 1px solid black;
+    width: 160px;
+    height: 30px;
+}
+
+.scroll-box {
+    width: 300px; 
+    height: 150px; 
+    padding: 10px; 
+    border: 1px solid #ccc;
+    overflow: auto; 
+    background-color: #f9f9f9;
+}
+
+/* .box{
+    margin-top: 20px;
+} */
+
+.products {
+    text-align: center;
+}
+
+.heading {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.box-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; 
+    justify-content: center;
+}
+
+.box {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.box h3 {
+    margin: 10px 0;
+}
+
+.stars {
+    margin: 10px 0;
+}
+
+.quantity {
+    margin: 10px 0;
+}
+
+.price {
+    font-size: 1.2em;
+    color: #28a745;
+    margin: 10px 0;
+}
+
+.scroll-box {
+    max-height: 100px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+    width: auto;
+}
+
+.contact .row{
+    display: flex;
+    flex-wrap: wrap;
+    border: .2rem solid black;
+}
+
+.contact .row form{
+    padding: 2rem;
+    flex: 1 1 20rem;
+}
+
+.contact .row form .inputBox{
+    position: relative;
+}
+
+.contact .row form .inputBox input, .contact .row form .inputBox textarea{
+    width: 100%;
+    border-bottom: .1rem solid black;
+    padding: 1rem 0;
+    margin: 1.5rem 0;
+    font-size: 1.2rem;
+    text-transform: none;
+    color: rgb(230, 67, 17);
+    
+}
+
+.contact .row form .inputBox textarea{
+    resize: none;
+    height: 10rem;
+}
+
+.contact h1{
+    color: green;
+    border: .2rem solid black;
+    text-align: center;
+    padding: .5rem;
+    border-radius: 30%;
+}    
+
+
+@media (max-width: 1200px){
+    html{
+        font-size: 55%;
+    }
+}
+
+@media (max-width: 991px){
+    .header-1,
+    .header-2{
+        padding: 2rem;
+    }
+    section{
+        padding: 1.5rem;
+    }
+}
+
+@media (max-width: 768px){
+    .header-2 .navbar{
+    display: inline-block;
+    }
+
+}
+
+@media (max-width: 450px){
+    html{
+    font-size: 60%;
+    }
+
+    .header-1{
+        display: none;
+    }
+
+    ul {
+        margin-left: 15px;
+    }
+    .navbar p{
+        display: none;
+    }
+}
+

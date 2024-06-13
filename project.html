@@ -3,12 +3,445 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Online Plant Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://fontawesome.com/icons/star?f=classic&s=solid">
+
+    
 </head>
 <body>
-    <a href="index.html">HOME</a>
-    <a href="project.html">Project</a>
-    <a href="contactMe.html">Contact</a>
-    <h1>Project</h1>
+<header>
+   <div class="header-1">
+    <a href="index.html" class="logo"><span class="material-symbols-outlined">potted_plant</span>VL Plant Store</a>
+   <form action="" class="search-bar-container">
+    <input type="search" id="search-bar" placeholder="search here...">
+    <label for="search-bar"><span class="material-symbols-outlined">search</span></label>
+   </form>
+    </div>
+
+   <div class="header-2">
+    <nav class="navbar">
+    <a href="index.html"> Home<span class="material-symbols-outlined">home</span></a>
+    <a href="project.html"> Products<span class="material-symbols-outlined">psychiatry</span></a>
+    <a href="contactMe.html"> Contact Us<span class="material-symbols-outlined">contact_support</span></a>
+    </nav>
+</div>
+   </main>
+</header>
+
+<section class="products" id="products">
+<h1 class="heading"> Plants </h1>
+<div class="box-container">
+    <div class="box">
+        <img src="images/albo monstera.jpg" alt="">
+        <h3>Albo Monstera</h3>
+        <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star-half-stroke"></i>
+        </div>
+        <div class="quantity">
+            <span> Quantity : </span>
+            <input type="number" min="1" max="100" value="1">
+        </div>
+        <div class="price">$85.00</div>
+        <div class="scroll-box">
+        <p>Bring some greenery to your space with this unique Albo Monstera, complete with stunning white variegation. This beautiful houseplant comes in a 6" pot, making it a great choice for collectors and new houseplant parents alike. Its glossy foliage is sure to brighten up any room.</p>
+    </div>
+        <a href="#" class="btn">Add to cart</a>
+    </div>
+
+    <div class="box">
+        <img src="images/Monstera Thai Constellation.jpg" alt="">
+        <h3>Thai Constellation Monstera</h3>
+        <div class="stars">
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+        </div>
+        <div class="quantity">
+            <span> Quantity : </span>
+            <input type="number" min="1" max="100" value="1">
+        </div>
+        <div class="price">$65.99</div>
+        <div class="scroll-box">
+        <p>This is a rare and exotic plant that is native to Thailand. The leaves are variegated with yellow to white and will fenestrate as it matures. A Monstera Thai Constellation is a variegated Monstera that has been genetically produced in labs through tissue culture. Our Thai Constellations were produced in a lab and then acclimated and grown in our greenhouse.</p>
+    </div>
+        <a href="#" class="btn">Add to cart</a>
+    </div>
+
+    <div class="box">
+        <img src="images/Alocasia 'Frydek Variegata'.jpg" alt="">
+        <h3>Alocasia 'Frydek Variegata'</h3>
+        <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+        </div>
+        <div class="quantity">
+            <span> Quantity : </span>
+            <input type="number" min="1" max="100" value="1">
+        </div>
+        <div class="price">$75.00</div>
+        <div class="scroll-box">
+        <p>Alocasia Frydek is a stunning variegated elephant ear variety.  This is the variegated form of the more common Alocasia micholitziana.  The leaves are green with white contrasting veins and random spots of variegation throughout.</p>
+        <p>Alocasia Frydek tends to stay more compact when grown as an indoor plant.  However, if grown outside this plant will grow large leaves and can reach heights of up to 5'!</p>
+        <p>Caring for your new Alocasia Frydek is simple.  Alocasia prefer a well draining soil rich in organic matter.  Allow your Alocasia to dry out slightly between watering.  Bright indirect light is preferred, but they will also grow nicely under lower light.</p>
+    </div>
+        <a href="#" class="btn">Add to cart</a>
+    </div>
+
+    <div class="box">
+        <img src="images/Epipremnum sp. Manjula Mutant 4 - Pothos.jpg" alt="">
+        <h3>Epipremnum - Pothos</h3>
+        <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star-half-stroke"></i>
+        </div>
+        <div class="quantity">
+            <span> Quantity : </span>
+            <input type="number" min="1" max="100" value="1">
+        </div>
+        <div class="price">$15.00</div>
+        <div class="scroll-box">
+        <p>Epipremnum aureum 'Marble Queen' 4" - Pothos boasts a stunning marble-patterned foliage that adds a touch of elegance to any room. This low-maintenance plant is perfect for beginners and can purify the air by removing toxins. Enjoy its beauty and health benefits today!</p>
+    </div>
+        <a href="#" class="btn">Add to cart</a>
+    </div>    
+
+    <div class="box">
+        <img src="images/Ficus elastica 'Tineke' 8 - Tineke Rubber Plant.jpg" alt="">
+        <h3>Ficus elastica 'Tineke' - Tineke Rubber Plant</h3>
+        <div class="stars">
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+        </div>
+        <div class="quantity">
+            <span> Quantity : </span>
+            <input type="number" min="1" max="100" value="1">
+        </div>
+        <div class="price">$13.99</div>
+        <div class="scroll-box">
+        <p>This Ficus elastica 'Tineke' 8" - Tineke Rubber Plant boasts a unique variegated pattern, adding a beautiful touch to any space. With its easy-care nature and reputation for purifying indoor air, this plant is perfect for those looking to enhance their home or office with a touch of natural beauty.</p>
+    </div>
+        <a href="#" class="btn">Add to cart</a>
+    </div>    
+
+    <div class="box">
+        <img src="images/monstera_esqueleto_2-1-scaled.jpg" alt="">
+        <h3>Monstera Esqueleto</h3>
+        <div class="stars">
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+        </div>
+        <div class="quantity">
+            <span> Quantity : </span>
+            <input type="number" min="1" max="100" value="1">
+        </div>
+        <div class="price">$89.99</div>
+        <div class="scroll-box">
+        <p>This Monstera Esqueleto 10” is a unique and eye-catching houseplant that will become a beautiful addition to any interior. Its popular lacy green leaves are sure to add an elegant touch to any home or office. The Monstera Esqueleto 10” is perfect for those seeking a more exotic houseplant.</p>
+    </div>
+        <a href="#" class="btn">Add to cart</a>
+    </div>   
+
+    <div class="box">
+        <img src="images/Philodendron 'Dark Lord'.jpg" alt="">
+        <h3>Philodendron 'Dark Lord'</h3>
+        <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+        </div>
+        <div class="quantity">
+            <span> Quantity : </span>
+            <input type="number" min="1" max="100" value="1">
+        </div>
+        <div class="price">$89.99</div>
+        <div class="scroll-box">
+        <p>Climbing tropical philodendron hybrid wwith broad, triangular, glossy foliage that can get up to 20" long that begin with deep orange to blood red hues transitioning to dark green and often appear nearly black, complemented by metallic maroon undersides and huge bright red stems that can get up to 1" in diameter! Mature size averages 4'-5' tall. The leaves will get darker when grown in medium indirect light. With its dark and dramatic aesthetic, this Philodendron cultivar adds a touch of sophistication to any plant collection.</p>
+    </div>
+        <a href="#" class="btn">Add to cart</a>
+    </div>   
+
+    <div class="box">
+        <img src="images/Stephanotis on Hoop 5.jpg" alt="">
+        <h3>Stephanotis on Hoop</h3>
+        <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+        </div>
+        <div class="quantity">
+            <span> Quantity : </span>
+            <input type="number" min="1" max="100" value="1">
+        </div>
+        <div class="price">$29.99</div>
+        <div class="scroll-box">
+        <p>This beautiful and delicate Stephanotis on Hoop 5" adds a touch of elegance to any space. Known for their sweet, jasmine-like fragrance, these flowers are perfect for weddings, special occasions, or just to brighten up your home. Let the Stephanotis bloom and bring a sense of calm and beauty to your surroundings.</p>
+    </div>
+        <a href="#" class="btn">Add to cart</a>
+    </div>  
+</div>
+
+<h1 class="heading"> Plant Care & Maintenance </h1>
+<div class="box-container">
+    <div class="box">
+        <img src="images/Bonide Systemic Houseplant Granules 8oz.jpg" alt="">
+        <h3>Bonide Systemic Houseplant Granules 8oz</h3>
+        <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star-half-stroke"></i>
+        </div>
+        <div class="quantity">
+            <span> Quantity : </span>
+            <input type="number" min="1" max="100" value="1">
+        </div>
+        <div class="price">$9.99</div>
+        <div class="scroll-box">
+        <p>BONIDE Systemic Houseplant Insect Control provides insect control for up to 8 weeks. Protects plants from aphids, whiteflies, and other listed insects.</p>
+        <ul>
+            <li>
+                Protect your plants from insects pests for up to 8 weeks
+            </li>
+            <li>
+                Protects from aphids, whiteflies and other listed insects
+            </li>
+            <li>
+                For containerized household plants
+            </li>
+            <li>
+                Even new growth is protected for up to 8 weeks
+            </li>
+            <li>
+                Easy to apply granules
+            </li>
+        </ul>
+    </div>
+        <a href="#" class="btn">Add to cart</a>
+    </div>
+
+    <div class="box">
+        <img src="images/Canopy Mist Foliar Spray 10oz.jpg" alt="">
+        <h3>Canopy Mist Foliar Spray 10oz</h3>
+        <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+        </div>
+        <div class="quantity">
+            <span> Quantity : </span>
+            <input type="number" min="1" max="100" value="1">
+        </div>
+        <div class="price">$14.99</div>
+        <div class="scroll-box">
+        <p>Leaves absorb water and nutrients just like roots. Canopy Mist delivers a superfine spray of nutrients to boost metabolism, helping your plants grow healthy and strong.</p>
+        <ul>
+            <li>
+                Canopy Mist is a ready-to-use foliar spray for plants. It provides essential amounts of plant nutrition and organic compounds from sea plant extracts.
+            </li>
+            <li>
+                In nature, plants absorb some nutrition through their leaves. Organic micro dusts and other minerals are absorbed through leaf tissue when it rains. Canopy mist is intended to help replicate nature within your own home.
+            </li>
+            <li>
+                It is made of a delicate balance of minerals as well as organic plant hormones from extracted sea plants. This helps improve your plants circulatory system and can increase the water flow vital for mineral uptake. The result is increased photosynthesis and resilience to stressors. It’s great to use weekly as a part of holistic plant care.
+            </li>
+        </ul>
+    </div>
+        <a href="#" class="btn">Add to cart</a>
+    </div>
+
+    <div class="box">
+        <img src="images/Crazy Keiki Cloning Paste.jpg" alt="">
+        <h3>Crazy Keiki Cloning Paste</h3>
+        <div class="stars">
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+        </div>
+        <div class="quantity">
+            <span> Quantity : </span>
+            <input type="number" min="1" max="100" value="1">
+        </div>
+        <div class="price">$18.00</div>
+        <div class="scroll-box">
+        <p>Crazy Keiki Cloning Paste is a fun product every houseplant enthusiast needs in their tool kit. Keiki cloning paste works by bio-hacking your plants dormant nodes and kicking them into gear to create new vegetation. The applications are only limited by your creativity.</p>
+        <ul>
+            <li>
+                Want to enjoy additional flowers on your orchid? Apply some paste to the nodes higher up on the flower spike to encourage more blooms.
+            </li>
+            <li>
+                Encourage your carnivorous nepenthes to clone itself by applying some paste to basal nodes at the base of the plant.
+            </li>
+            <li>
+                Push a dying and defoliated croton out of it's tantrum by putting Keiki Paste on some dormant woody nodes.
+            </li>
+            <li>
+                Fill out some leggy plants by adding paste to nodes in between leaves and branches.  
+            </li>
+        </ul>
+    </div>
+        <a href="#" class="btn">Add to cart</a>
+    </div>
+
+    <div class="box">
+        <img src="images/Espoma Perlite 8qt.jpg" alt="">
+        <h3>Espoma Perlite 8qt</h3>
+        <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+        </div>
+        <div class="quantity">
+            <span> Quantity : </span>
+            <input type="number" min="1" max="100" value="1">
+        </div>
+        <div class="price">$16.00</div>
+        <div class="scroll-box">
+        <p>Espoma Organic Perlite is a lightweight volcanic granular material that helps improve heavy soils and potting mixes.  Perlite naturally creates pore space in soils that allows air and water to penetrate and prevents soil compaction.</p>
+        <ul>
+            <li>
+                100% Pure – No additives or Fillers
+            </li>
+            <li>
+                Loosens Soils & Prevents Compaction
+            </li>
+            <li>
+                Aerates soil and promotes root growth
+            </li>
+            <li>
+                100% Natural & Organic Approved 
+            </li>
+            <li>
+                Safe for People, Pets, and Planet
+            </li>
+        </ul>
+    </div>
+        <a href="#" class="btn">Add to cart</a>
+    </div>
+
+    <div class="box">
+        <img src="images/Espoma Potting Soil 8qt.jpg" alt="">
+        <h3>Espoma Potting Soil 8qt</h3>
+        <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+        </div>
+        <div class="quantity">
+            <span> Quantity : </span>
+            <input type="number" min="1" max="100" value="1">
+        </div>
+        <div class="price">$17.50</div>
+        <div class="scroll-box">
+        <p>Espoma Organic Potting Mix is the ultimate potting soil for all your indoor and outdoor potted plants! It contains a rich blend of the finest natural ingredients and is enhanced with earthworm castings, feather meal, alfalfa meal, kelp meal, yucca extract, and our proprietary blend of mycorrhizae to ensure your plants grow deeper roots, greener foliage and more beautiful blooms.</p>
+        <ul>
+            <li>
+                Use on All Indoor & Outdoor Containers
+            </li>
+            <li>
+                Grow Bigger, More Beautiful Plants
+            </li>
+            <li>
+                Contains Root Enhancing Myco-tone®
+            </li>
+            <li>
+                100% Natural & Organic Approved
+            </li>
+            <li>
+                Safe for People, Pets, and Planet
+            </li>
+        </ul>
+    </div>
+        <a href="#" class="btn">Add to cart</a>
+    </div>
+
+    <div class="box">
+        <img src="images/Foxfarm Happy Frog Potting Soil 12qt.jpg" alt="">
+        <h3>Foxfarm Happy Frog Potting Soil 12qt</h3>
+        <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star-half-stroke"></i>
+        </div>
+        <div class="quantity">
+            <span> Quantity : </span>
+            <input type="number" min="1" max="100" value="1">
+        </div>
+        <div class="price">$16.99</div>
+        <div class="scroll-box">
+        <p>Your potted plants deserve the best. Their roots can't seek out nutrition in the ground, so you have to bring it to them. That's why Happy Frog® Potting Soil is amended with soil microbes that can help improve root efficiency and encourage nutrient uptake. Between the earthworm castings, bat guano, and aged forest products, your container plants have never felt so good.</p>
+    </div>
+        <a href="#" class="btn">Add to cart</a>
+    </div>
+
+    <div class="box">
+        <img src="images/G&B Orchid Bark Seedling 8qt.jpg" alt="">
+        <h3>G&B Orchid Bark Seedling 8qt</h3>
+        <div class="stars">
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+        </div>
+        <div class="quantity">
+            <span> Quantity : </span>
+            <input type="number" min="1" max="100" value="1">
+        </div>
+        <div class="price">$9.99</div>
+        <div class="scroll-box">
+        <p>Gardner & Bloome Medium Orchid Bark. Soil replacement for the growing needs of orchids and other tropical plants.</p>
+    </div>
+        <a href="#" class="btn">Add to cart</a>
+    </div>
+</section>
+
+<footer class="footer">
+    
+    <div class="header-2">
+        <nav class="navbar">
+        <a href="index.html"> Home<span class="material-symbols-outlined">home</span></a>
+        <a href="project.html"> Products<span class="material-symbols-outlined">psychiatry</span></a>
+        <a href="contactMe.html"> Contact Us<span class="material-symbols-outlined">contact_support</span></a>
+        </nav>
+        <p>&copy; 2024 VL Plant Store. All rights reserved.</p>
+    </div>
+</footer>
 </body>
 </html>
